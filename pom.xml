@@ -19,6 +19,12 @@
         <maven>2.0.6</maven>
     </prerequisites>
 
+    <scm>
+        <url>https://github.com/thenewmotion/maven-protoc-plugin</url>
+        <connection>scm:git:ssh://git@github.com/thenewmotion/maven-protoc-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/thenewmotion/maven-protoc-plugin.git</developerConnection>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.maven</groupId>
