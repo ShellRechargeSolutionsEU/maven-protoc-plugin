@@ -45,4 +45,14 @@
             <version>2.0.9</version>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>thenewmotion</id>
+            <url>http://nexus.thenewmotion.com/content/repositories/releases-public/</url>
+        </repository>
+        <snapshotRepository>
+            <id>thenewmotion</id>
+            <url>http://nexus.thenewmotion.com/content/repositories/snapshots-public/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
